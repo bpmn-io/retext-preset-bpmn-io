@@ -1,0 +1,47 @@
+{
+  "name": "retext-preset-bpmn-io",
+  "version": "0.0.0",
+  "description": "A retext preset for bpmn.io projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpmn-io/retext-preset-bpmn-io"
+  },
+  "author": "Nico Rehwaldt <https://github.com/nikku>",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "tsc --build --clean && tsc --build",
+    "lint": "eslint .",
+    "format": "remark . -qfo && npm run lint -- --fix",
+    "test": "npm run prepack"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "dependencies": {
+    "retext-contractions": "^5.0.0",
+    "retext-diacritics": "^4.0.0",
+    "retext-indefinite-article": "^4.0.0",
+    "retext-quotes": "^5.0.0",
+    "retext-redundant-acronyms": "^4.0.0",
+    "retext-repeated-words": "^4.0.0",
+    "retext-sentence-spacing": "^5.0.0",
+    "unified": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-plugin-bpmn-io": "^1.0.0",
+    "remark-cli": "^11.0.0",
+    "typescript": "^4.0.0"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-bpmn-io"
+    ]
+  }
+}
