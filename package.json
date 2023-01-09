@@ -13,7 +13,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "prepack": "npm run build",
+    "prepack": "npm run build && npm run format",
     "build": "tsc --build --clean && tsc --build",
     "lint": "eslint .",
     "format": "remark . -qfo && npm run lint -- --fix",
@@ -37,6 +37,7 @@
     "eslint": "^8.31.0",
     "eslint-plugin-bpmn-io": "^1.0.0",
     "remark-cli": "^11.0.0",
+    "remark-preset-bpmn-io": "^0.0.1",
     "typescript": "^4.0.0"
   },
   "remarkConfig": {
