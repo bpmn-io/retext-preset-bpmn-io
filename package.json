@@ -15,6 +15,7 @@
   "scripts": {
     "prepack": "npm run build && npm run format",
     "build": "tsc --build --clean && tsc --build",
+    "all": "npm test",
     "lint": "eslint .",
     "format": "remark . -qfo && npm run lint -- --fix",
     "test": "npm run prepack"
