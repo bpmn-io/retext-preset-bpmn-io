@@ -19,7 +19,7 @@ const retextPresetWooorm = {
     retextRedundantAcronyms,
     retextRepeatedWords,
     retextIndefiniteArticle,
-    retextContractions
+    [ retextContractions, { straight: true } ]
   ]
 };
 
