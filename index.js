@@ -11,7 +11,7 @@ import retextIndefiniteArticle from 'retext-indefinite-article';
 import retextContractions from 'retext-contractions';
 
 /** @type {Preset} */
-const retextPresetWooorm = {
+const retextPreset = {
   plugins: [
     [ retextSentenceSpacing, { preferred: 1 } ],
     [ retextQuotes, { preferred: 'straight' } ],
@@ -23,4 +23,4 @@ const retextPresetWooorm = {
   ]
 };
 
-export default retextPresetWooorm;
+export default retextPreset;
