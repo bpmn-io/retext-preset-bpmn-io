@@ -35,7 +35,7 @@
     "unified": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.31.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-bpmn-io": "^1.0.0",
     "remark-cli": "^11.0.0",
     "remark-preset-bpmn-io": "^0.0.1",
