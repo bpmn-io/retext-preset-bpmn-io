@@ -35,12 +35,12 @@
     "unified": "^11.0.5"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.16",
-    "@types/mocha": "^10.0.6",
-    "chai": "^5.1.1",
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "chai": "^6.2.2",
     "eslint": "^8.57.0",
     "eslint-plugin-bpmn-io": "^1.0.0",
-    "mocha": "^10.4.0",
+    "mocha": "^11.7.6",
     "remark-cli": "^12.0.1",
     "remark-preset-bpmn-io": "^0.3.0",
     "retext": "^9.0.0",
