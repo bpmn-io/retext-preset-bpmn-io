@@ -6,6 +6,8 @@ All notable changes to [retext-preset-bpmn-io](https://github.com/bpmn-io/retext
 
 ___Note:__ Yet to be released changes appear here._
 
+* `DEPS`: update to `retext-quotes@6.0.2`
+
 ## 0.1.0
 
 * `DEPS`: update to `unified@11`

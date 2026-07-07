@@ -28,7 +28,7 @@
     "retext-contractions": "^6.0.0",
     "retext-diacritics": "^5.0.0",
     "retext-indefinite-article": "^5.0.0",
-    "retext-quotes": "^6.0.0",
+    "retext-quotes": "^6.0.2",
     "retext-redundant-acronyms": "^5.0.0",
     "retext-repeated-words": "^5.0.0",
     "retext-sentence-spacing": "^6.0.0",
