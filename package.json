@@ -37,10 +37,10 @@
   "devDependencies": {
     "@types/chai": "^5.2.3",
     "@types/mocha": "^10.0.10",
-    "chai": "^6.2.2",
+    "chai": "^6.3.0",
     "eslint": "^9.39.4",
     "eslint-plugin-bpmn-io": "^2.3.1",
-    "mocha": "^11.7.6",
+    "mocha": "^12.0.3",
     "remark-cli": "^12.0.1",
     "remark-preset-bpmn-io": "^0.4.0",
     "retext": "^9.0.0",
